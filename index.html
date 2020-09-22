@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scroll Project</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/b42bc5ce06.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!---header-->
+    <header id="home">
+      <!---nav bar-->
+      <nav id="nav">
+        <!---nav header-->
+        <div class="nav-center">
+          <div class="nav-header">
+            <img src="" alt="" class="logo" />
+            <button class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!---links-->
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">home</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link">about</a>
+              </li>
+              <li>
+                <a href="#services" class="scroll-link">services</a>
+              </li>
+              <li>
+                <a href="#tours" class="scroll-link">tours</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="banner">
+        <div class="container">
+          <h1>scroll project</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt
+            soluta nisi reprehenderit beatae fugit iste odio earum architecto!
+            Facilis, aut!
+          </p>
+          <a href="#tours" class="scroll-link btn btn-white"> explore tours </a>
+        </div>
+      </div>
+    </header>
+    <!---sections-->
+    <section id="about" class="section" style="background-color: red">
+      <div class="title">
+        <h2>about <span>us</span></h2>
+      </div>
+    </section>
+    <section id="services" class="section" style="background-color: yellow">
+      <div class="title">
+        <h2>our <span>services</span></h2>
+      </div>
+    </section>
+    <section id="tours" class="section" style="background-color: pink">
+      <div class="title">
+        <h2>featured <span>tours</span></h2>
+      </div>
+    </section>
+
+    <footer class="section">
+      <p>
+        copyright &copy; coding crew accadamy <span id="date">2020</span>
+        .all rights reserved
+      </p>
+    </footer>
+    <!---back to top button-->
+    <a href="#home" class="scroll-link top-link">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+    <!--javascript-->
+    <script src="index.js"></script>
+  </body>
+</html>
